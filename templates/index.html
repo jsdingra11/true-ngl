@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send a Message</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="xp-body">
+  <div class="xp-window">
+    <div class="xp-title-bar">
+      <span class="xp-title">Anonymous Messenger -- Jashanpreet</span>
+      <div class="xp-controls">
+        <span class="xp-btn">_</span>
+        <span class="xp-btn">□</span>
+        <span class="xp-btn">×</span>
+      </div>
+    </div>
+    <div class="xp-content">
+      <h2>Send a message to Jashanpreet</h2>
+      <form id="msgForm">
+        <textarea name="message" id="message" rows="4" placeholder="Type your message..."></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+      <div id="status"></div>
+    </div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
